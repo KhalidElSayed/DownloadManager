@@ -1,0 +1,10 @@
+=== Download manager for Android
+
+Module that helps downloading large files. All downloads are contained within a DB and supports download resume and connectivity fluctuation. The manager also handles SDcard.
+
+=== Usage
+
+<pre>
+DownloadManager manager = DownloadManager.getInstance(context);
+manager.add(Uri.parse("http://test.com");
+</pre>
